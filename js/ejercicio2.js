@@ -27,7 +27,9 @@ while (salir == '') {
 }
 console.log(ciudades)
 
-document.write('<br>Items posicionados primero, tercero y ultimo' + series[0, 2, 9])
+document.write('<br>Item posicionado primero' + ciudades[0])
+document.write('<br>Item posicionado tercero' + ciudades[2])
+document.write('<br>Item posicionado ultimo' + ciudades[ciudades.length-1])
 
 ciudades.push('Paris')
 document.write('<br>Agrego Paris al final del arreglo:<br>')
